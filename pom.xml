@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.wso2.carbon</groupId>
-    <artifactId>org.wso2.carbon.encryption.dbsync</artifactId>
+    <artifactId>org.wso2.carbon.encryption.dbsync.mysql</artifactId>
     <version>1.0.0</version>
 
     <dependencies>
@@ -91,7 +91,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>org.wso2.carbon.encryption.dbsync.DBSynchronizer</mainClass>
+                            <mainClass>org.wso2.carbon.encryption.dbsync.mysql.DBSynchronizer</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

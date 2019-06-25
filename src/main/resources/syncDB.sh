@@ -15,5 +15,5 @@ destDBUser=
 destDBPass=
 destDBDriver="com.mysql.jdbc.Driver"
 
-java -jar org.wso2.carbon.encryption.dbsync-1.0.0-jar-with-dependencies.jar \
+java -jar org.wso2.carbon.encryption.dbsync.mysql-1.0.0-jar-with-dependencies.jar \
 $keystorePath  $keystorePass  $keyAlias  $keyPass  $sourceDBUrl  $sourceDBUser  $sourceDBPass  $sourceDBDriver  $destDBUrl  $destDBUser  $destDBPass  $destDBDriver

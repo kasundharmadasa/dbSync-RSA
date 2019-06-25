@@ -16,7 +16,7 @@
  *  under the License.
  */
 
-package org.wso2.carbon.encryption.dbsync.dto;
+package org.wso2.carbon.encryption.dbsync.mysql.dto;
 
 import java.security.KeyStore;
 

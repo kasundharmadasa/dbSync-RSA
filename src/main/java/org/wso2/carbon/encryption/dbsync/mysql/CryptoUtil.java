@@ -16,7 +16,7 @@
  *  under the License.
  */
 
-package org.wso2.carbon.encryption.dbsync;
+package org.wso2.carbon.encryption.dbsync.mysql;
 
 import org.apache.axiom.om.util.Base64;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;

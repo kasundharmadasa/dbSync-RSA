@@ -16,15 +16,15 @@
  *  under the License.
  */
 
-package org.wso2.carbon.encryption.dbsync;
+package org.wso2.carbon.encryption.dbsync.mysql;
 
 import org.apache.log4j.PropertyConfigurator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.wso2.carbon.encryption.dbsync.dto.AccessTokenDto;
-import org.wso2.carbon.encryption.dbsync.dto.AuthorizationCodeDto;
-import org.wso2.carbon.encryption.dbsync.dto.KeystoreDto;
-import org.wso2.carbon.encryption.dbsync.dto.TokenScopeDto;
+import org.wso2.carbon.encryption.dbsync.mysql.dto.AccessTokenDto;
+import org.wso2.carbon.encryption.dbsync.mysql.dto.AuthorizationCodeDto;
+import org.wso2.carbon.encryption.dbsync.mysql.dto.KeystoreDto;
+import org.wso2.carbon.encryption.dbsync.mysql.dto.TokenScopeDto;
 
 import java.security.KeyStore;
 import java.sql.Connection;
